@@ -1,5 +1,7 @@
 # Mobile-Price-Range-Prediction
+
 In the competitive mobile phone market companies want to understand sales data of mobile phones and factors which drive the prices. The objective is to find out some relation between features of a mobile phone(eg:- RAM, Internal Memory, etc) and its selling price. In this problem, we do not have to predict the actual price but a price range indicating how high the price is.
+
 # Data Description -
 * Battery_power - Total energy a battery can store in one time measured in mAh
 * Blue - Has bluetooth or not
@@ -23,7 +25,9 @@ In the competitive mobile phone market companies want to understand sales data o
 * Wifi - Has wifi or not
 * Price_range - This is the target variable with value of 0(low cost), 1(medium cost),
 * 2(high cost) and 3(very high cost).
+
 # Conclusion
+
 1.   Ram , Battery_power features were found to be the most relevant features for predicting price range of mobiles and dropping negative correlation features which are clock speed , mobile_wt , touch_screen
 2.   Knn gives acc score of 95% and Xg boost 91%.
 3.  Xgboost and KNN both are given best roc_auc_accuracy score of 99%
