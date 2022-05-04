@@ -26,12 +26,13 @@ In the competitive mobile phone market companies want to understand sales data o
 * Price_range - This is the target variable with value of 0(low cost), 1(medium cost),
 * 2(high cost) and 3(very high cost).
 
-# Conclusion
+# Important Works/ Conclusion 
+1. check each model performance use confusion matrix and for correlation among the feature we use heat map
 
-1.   Ram , Battery_power features were found to be the most relevant features for predicting price range of mobiles and dropping negative correlation features which are clock speed , mobile_wt , touch_screen
-2.   Knn gives acc score of 95% and Xg boost 91%.
-3.  Xgboost and KNN both are given best roc_auc_accuracy score of 99%
-4.  In case of Xgboost hyper parameter(using grid_search cv ) gives very good result.
-5.  Logistic regression is giving the less results among all the algorithms
-6.  So we conclude that kneighbors classifier and Xgboost is giving the best results for these dataset.
-7.  So we can say that in the price range prediction as the ram and battery_power increases the price range will increase for sure .
+2.   Ram , Battery_power features were found to be the most relevant features for predicting price range of mobiles and dropping negative correlation features which are clock speed , mobile_wt , touch_screen
+3.   Knn gives acc score of 95% and Xg boost 91%.
+4.  Xgboost and KNN both are given best roc_auc_accuracy score of 99%
+5.  In case of Xgboost hyper parameter(using grid_search cv ) gives very good result.
+6.  Logistic regression is giving the less results among all the algorithms
+7.  So we conclude that kneighbors classifier and Xgboost is giving the best results for these dataset.
+8.  So we can say that in the price range prediction as the ram and battery_power increases the price range will increase for sure .
