@@ -25,7 +25,10 @@ In the competitive mobile phone market companies want to understand sales data o
 * Wifi - Has wifi or not
 * Price_range - This is the target variable with value of 0(low cost), 1(medium cost),
 * 2(high cost) and 3(very high cost).
+# Approach and Presentation.
+Final Notebook- https://github.com/satyam-jyoti-sankar/Mobile_price_range_prediction/blob/main/Mobile_price_range_prediction.ipynb
 
+Presentation - https://github.com/satyam-jyoti-sankar/Mobile_price_range_prediction/blob/main/Mobile%20Price%20Range%20Prediction%20ppt-converted.pptx
 # Important Works/ Conclusion 
 1. check each model performance use confusion matrix and for correlation among the feature we use heat map
 
